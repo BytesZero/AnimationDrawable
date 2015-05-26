@@ -10,7 +10,8 @@
         <ImageView
             android:id="@+id/main_iv_show"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -29,12 +30,12 @@
         <Button
             android:id="@+id/main_bt_start"
             style="@style/MyButton"
-            android:text="开始（循环）" />
+            android:text="开始(循环)" />
 
         <Button
             android:id="@+id/main_bt_start_oneshot"
             style="@style/MyButton"
-            android:text="开始（一次）" />
+            android:text="开始(一次)" />
 
         <Button
             android:id="@+id/main_bt_stop"
